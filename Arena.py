@@ -47,10 +47,10 @@ class Arena:
 class BattleBot:
   def __init__(self, name):
     self.name = name;
-    self.health = 100;
-    self.base_armor = 10;
-    self.base_damage = 10;
-    self.speed = 10;
+    self.health = 100.0;
+    self.base_armor = 10.0;
+    self.base_damage = 10.0;
+    self.speed = 10.0;
   def get_stats(self):
     print(self.name)
     print("Health: " + str(self.health))
